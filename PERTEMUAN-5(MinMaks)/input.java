@@ -77,7 +77,7 @@ public class input {
             System.out.println("Nilai Terbesar Muncul Sebanyak  ="+muncul);
         }
         else{
-            System.out.println("Anda Salah Memasukan Data A atau B");
+            System.out.println("Anda Salah Memasukan Data A atau B.");
         }
     }
     
