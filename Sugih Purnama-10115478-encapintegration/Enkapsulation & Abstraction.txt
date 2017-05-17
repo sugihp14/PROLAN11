@@ -1,0 +1,18 @@
+
+
+Abstraction
+
+Digunakan dalam menentukan ciri,sifat, atau informasi penting dari suatu object, informasi dan data yang mana yang akan disembunyikan dan yang akan ditampilkan.
+
+Pengertian abstraction lainnya :
+
+Abstraction merupakan suatu proses penggambaran suatu perilaku.
+
+Menyederhanakan kondisi realitas yang rumit dengan memodelkan class sehingga sesuai dengan permasalahan yang dihadapi.
+
+Abstraksi adalah suatu proses yang melibatkan penentuan behaviour utama dari suatu object dan membuang/mengurangi behaviour yang tidak perlu.
+
+
+Encapsulation:
+
+Membungkus data dan kode dalam suatu class. Hanya data dan fungsi yang ada didalam suatu kelas/object yang bisa diakses, tanpa harus mengetahui detail proses yang terjadi didalam kelas/object tersebut.
