@@ -1,0 +1,171 @@
+ ------------------------------------------
+| Nama		  : Sugih Purnama          |
+| Nim		  : 10115478		   |
+| Kelas		  : Prolan -11		   |
+| username github : sugihp14		   |
+ ------------------------------------------
+
+
+
+
+Pertemuan 1
+
+A. Materi : Pendahuluan
+   1) Pengenalan Java
+      (Sejarah Java Sun Microsystem, James Gosling, 1991, OOP)
+   2) Cara Instalasi java, JDK,JDE, dan Netbeans
+   3) Cara Menjalankan Netbeans
+   4) Program Pertama "HelloWorld.java"
+
+B. Folder Tugas di Github : Pertemuan-1
+
+
+
+
+Pertemuan 2
+
+A. Materi : Pengenalan Variabel
+   1) Pengenalan Class
+   2) Pengenalan Objek
+   3) Penggunaan Input Output
+
+B. Folder tugas di Github : Pertemuan-2	dan lab
+
+
+
+
+Pertemuan 3
+
+A. Materi : Tipe Data
+   1) Macam-Macam Tipe Data
+   2) Pengenalan Tipe Data
+	a. Primitif 
+	  - byte (-128, 127)
+          - int (-2.147.483.648, 2.147.483.647)
+	  - short (-32.768, 32.767)
+	  - long (-9.223.372.036.854.775.808, -9.223.372.036.854.775.807)
+	  - float (-3.402.823.47E+38, 3.402.823.47E+38), akhiri dengan f, 3.14f
+	  - double (-1.797.693.134.862.315.70E+308, 1.797.693.134.862.315.70E+308),
+	  - char (1 digit)
+	  - boolean (true/false, 1/0)
+	b. Objek (Bentukan) 
+	  - String
+	  - Calender
+	  - Date
+
+B.Folder Tugas di Github : PERTEMUAN-3(TUGAS) dan PERTEMUAN-3(REVISI TIPE DATA)
+
+
+
+Pertemuan 4
+
+A. Materi :Method, Konstruktor, This, atribut
+   1) Method Konstruktor This Atribut
+	- Penjelasan method, konstruktor, this dan attribut
+	- Pembuatan method, konstruktor, this dan attribut
+	- Pemanggilan method, konstruktor, this dan attribut
+	- Penjelasan konsep overloading
+	- Penjelasan parameter
+
+B. FOlder Tugas di Github : PERTEMUAN-4(Method,this,Konstruktor,Atribut)
+
+
+
+
+Pertemuan 5
+
+A. Materi : Variabel dan Operator Java
+   1) Variabel = Tempat menampung nilai dalam memori
+   2) Jenis Variabel
+      a. Lokal = Digunakan dalam satu sub-segmen (method), tidak dapat menggunakan modifier
+      b. Instance = Digunakan dalam kelas dan di luar sub-segmen, dapat menggunakan modifier
+         - Metode Static
+         - Metode Non-Static
+      c. Static = Variabel kelas, tidak bisa diubah, keyword static, biasa digunakan untuk kelas lain
+   3) Konstanta = Tidak bisa diubah, keyword final
+   4) Operator
+      a. Aritmatika = +, -, *, /, %, ++, --
+      b. Relasional = >, <, ==, !=, >=, <=
+      c. Logika = &&, ||, !
+      d. Assignment = +=, -=, =, *=, /=, %=
+      e. Miscellaneous
+        - Kondisional = ((x == 1)? 11:10)
+        - Instance Of = boolean var = obj1 instanceof obj2
+
+B. FOlder Tugas di Github : PERTEMUAN-5(MinMaks) dan PERTEMUAN-5
+
+
+
+Pertemuan 6 dan 7
+
+A. Materi :Inheritance
+   - Pengenalan Konsep Inheritance									
+      Inheritance memungkinkan kita membuat kelas yang diturunkan dari kelas lain. Inheritance juga memungkinkan untuk menggunakan ulang kode program dan mempercepat proses implementasi, kelas yang menurunkan atribut dan fungsi disebut sebagai base class, parent, ascendant, kelas bapak, superclass.  
+   - Pengenalan Keyword Super						
+     berfungsi sebagai variable referensi class , yang digunakan untuk rujukan dari Super Class atau Parent class.					
+
+B Folder Tugas di Github : PERTEMUAN 6 & 7
+
+
+
+
+Pertemuan 9
+
+A. Materi : Abstract
+ 	- Renjelasan penggunaan dan aturan abstract.
+        - Abstraksi method.
+        - "Instansiasi" kelas abstract.
+
+B. Folder Tugas di Github : PERTEMUAN-9(LAB)
+
+Pertemuan 10
+A. Materi : Enkapsulasi
+     - Pengenalan Enkapsulasi
+     - Perbedaan Abstak dan Enkapsulasi
+
+B. Folder Tugas di Github : PERTEMUAN-10(TUGAS) dan Sugih Purnama-10115478-encapintegration
+
+
+
+
+Pertemuan 11
+
+A. Materi :Interface
+    - Pengenalan Interface
+    - Perbedaan Kelas dan Interface
+
+B. Folder Tugas di Github : Sugih Purnama-101154778-Tugas
+
+
+Pertemuan 12
+
+A. Materi : Generic 
+
+    - Pengenalan Generic
+    - Perbedaan Generic Dan Inheritence
+
+B. Folder Tugas di Github : Pertemuan-12
+
+
+Pertemuan 13
+
+A. Materi : Generic Method
+   - Penggunaan Generic Method
+
+B. FOlder Tugas di Github : PERTEMUAN-13
+
+Pertemuan 14
+
+A. Materi : Maintenance
+    - Membagi minimal menjadi 2 package
+
+B. Folder Tugas di Github : Pertemuan-14
+
+
+Pertemuan 15
+A. Materi : Review Materi
+
+B. Folder Tugas di Github : Pertemuan-15
+
+
+
