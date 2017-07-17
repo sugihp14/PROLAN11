@@ -1,0 +1,16 @@
+Tagging Interface
+
+Sebuah interface tag (juga disebut markers interface  ) hanya sebuah interface tanpa metode. Beberapa contoh tag interface dari JDK:
+	Serializable
+	EventListener
+Mengapa mendefinisikan interface tanpa metode? Karena tidak ada metode, interface tag tidak pernah bisa menentukan perilaku, setidaknya tidak dalam arti khas. Namun, meskipun ia tidak memiliki metode, interface tag selalu membawa  informasi . Dalam beberapa kasus, jenis informasi itu sendiri dapat digunakan untuk memecahkan masalah.
+Misalnya, mekanisme serialisasi Java membutuhkan objek untuk mengimplementasikan Serializable sebelum akan serialize. Sebagaimana dinyatakan dalam javadoc :
+Interface serialisasi tidak memiliki metode  dan hanya melayani untuk mengidentifikasi semantik menjadi serializable.
+Tools yang sering digunakan adalah instanceof atau refleksi untuk memeriksa objek, untuk melihat apakah mereka mengimplementasikan interface tag tertentu. Tapi ini bukan satu-satunya cara inteerface tag dapat berguna. Ada beberapa kasus umum yang Anda mungkin mempertimbangkan mendefinisikan interface tag Anda sendiri, bahkan tanpa penggunaan yang sesuai dari instanceofatau refleksi:
+	- objek abadi (atau kelas berubah, jika Anda suka)
+	- kelas tunggal
+Keuntungan melakukannya adalah:
+	- menekankan, aspek tingkat tinggi penting dari kelas.
+	- untuk kedua pembaca manusia dan alat, memungkinkan identifikasi cepat dari kelas yang memiliki sifat tertentu.
+	- javadoc dari interface tag adalah rumah alami untuk mendokumentasikan semua karakteristik dari item yang mengimplementasikan interface yang diberikan.
+
