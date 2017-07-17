@@ -1,0 +1,27 @@
+A.Deskripsi Program
+  Program ini berisi sebuah aplikasi kalkulator. aplikasi ini bisa mengoperasikan perhitungan standar seperti penjumlahan, pengurangan , perkalian, pembagian. selain itu aplikasi ini juga bisa menghitung operasi yang berifat scientific seperti perhitungan penjumahan matriks, pengurangan matriks, dan perkalian matrik. selain operasi matriks, aplikasi ini juga bisa menghitung operasi trigonometri.
+  
+
+B.Cara Menggunakan Program
+  - Masukkan Nama Anda, Masukan Email Anda, dan Masukan Password Anda
+  - Masukkan Angka dari 1-3 untuk memilih menu yang anda inginkan
+  - Jika anda ingin kembali ke menu pilihan utama silahkan tekan "y"
+	namun jika anda tidak ingin kembali ke menu pilihan utama silahkan tekan "t"
+
+  
+  cat : jika anda salah memasukkan angka dari 1-3 maka akan muncul pesan dan anda harus memilih kembali angka dari 1-3
+
+
+
+C. Konsep OOP yang termuat dalam Program
+	1. ProgramKalkulator.java 	: inheritance, konstruktor,package
+	2. Tampilan.java			: Polimorphisme, implement This, Konstruktor,package
+	3. TrigonometriInterface.java	: Interface, package
+	4. PenjumlahanTrigonometri.java	: Implements Interface, package
+	5. login.java			: Generic Method, generic Class, Getter, setter, package
+	6. KurangTrigonometri.java	: Implement Interface, package
+	7. KonversiSudut.java		: Implements Interface, package	
+	8. KalkulatorStandar.java	: Extends kelas Abstract, package
+	9. KalkulatorMatriks.java	: Extends kelas Abstract, package
+	10. Kalkulator.java		: Kelas Abstract, package
+	11. Enkapsulasi.java		: Enkapsulasi, package
